@@ -17,10 +17,6 @@ This is a responsive **eCommerce Dashboard** built using React and Material UI. 
 - **Sidebar Navigation**: Easy navigation to sections like Dashboard, Order List, Reports, etc.
 - **Notifications**: Quick notifications in the RightBar for easy monitoring.
 
-## Screenshots
-
-- **Dashboard (Light Mode)**
-- **Dashboard (Dark Mode)**
 
 ## Technologies Used
 
@@ -28,8 +24,6 @@ This is a responsive **eCommerce Dashboard** built using React and Material UI. 
 - **Material UI**: For faster and customizable web development.
 - **Chart.js**: For dynamic charts and data visualizations.
 - **React-Chartjs-2**: React wrapper for Chart.js.
-- **Axios**: For handling API requests.
-- **React Router**: For dynamic routing.
 
 ## Project Structure
 
