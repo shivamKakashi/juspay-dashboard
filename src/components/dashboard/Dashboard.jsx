@@ -93,7 +93,7 @@ function Dashboard({ darkMode }) {
                             {metric.growth}
                           </Typography>
                           <img
-                            src="/icons/IconSet.png"
+                            src="https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet.png"
                             alt="Arrow Rise"
                             style={{ width: "16px", height: "16px" }} 
                           />
@@ -136,7 +136,7 @@ function Dashboard({ darkMode }) {
                             {metric.growth}
                           </Typography>
                           <img
-                            src={index === 0 ? "/icons/ArrowFall.png" : "/icons/IconSet.png"}
+                            src={index === 0 ? "https://shivamKakashi.github.io/juspay-dashboard/icons/ArrowFall.png" : "https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet.png"}
                             alt={index === 0 ? "Arrow Fall" : "Arrow Rise"}
                             style={{ width: "16px", height: "16px" }} 
                           />

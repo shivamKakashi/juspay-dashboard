@@ -13,23 +13,23 @@ import {
 
 const RightBar = () => {
   const notificationsData = [
-    { id: 1, icon: '/icons/bugIcon.png', message: 'You have a bug that needs...' },
-    { id: 2, icon: '/icons/profileIcon.png', message: 'New User Registered' },
-    { id: 3, icon: '/icons/bugIcon.png', message: 'You have a bug that needs...' },
-    { id: 4, icon: '/icons/signal.png', message: 'Andi Lane subscribed to you' },
+    { id: 1, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/bugIcon.png', message: 'You have a bug that needs...' },
+    { id: 2, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/profileIcon.png', message: 'New User Registered' },
+    { id: 3, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/bugIcon.png', message: 'You have a bug that needs...' },
+    { id: 4, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/signal.png', message: 'Andi Lane subscribed to you' },
   ];
   const activitiesData = [
-    { id: 1, icon: '/icons/IconSet (5).png', message: 'You have a bug that needs...' },
-    { id: 2, icon: '/icons/Female05.png', message: 'Released a new Version' },
-    { id: 3, icon: '/icons/3D08.png', message: 'Released a new Version' },
-    { id: 4, icon: '/icons/Male07.png', message: 'Modified A data in Page X' },
-    { id: 5, icon: '/icons/Male11.png', message: 'Deleted a page in Project X' },
+    { id: 1, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet (5).png', message: 'You have a bug that needs...' },
+    { id: 2, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/Female05.png', message: 'Released a new Version' },
+    { id: 3, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/3D08.png', message: 'Released a new Version' },
+    { id: 4, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/Male07.png', message: 'Modified A data in Page X' },
+    { id: 5, icon: 'https://shivamKakashi.github.io/juspay-dashboard/icons/Male11.png', message: 'Deleted a page in Project X' },
     
   ];
   const contactsData = [
-    { id: 1, avatar: '/icons/IconSet (6).png', name: 'Natali Craig' },
-    { id: 2, avatar: '/icons/IconSet (7).png', name: 'Drew Cano' },
-    { id: 3, avatar: '/icons/IconSet (8).png', name: 'Orlando Diggs' },
+    { id: 1, avatar: 'https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet (6).png', name: 'Natali Craig' },
+    { id: 2, avatar: 'https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet (7).png', name: 'Drew Cano' },
+    { id: 3, avatar: 'https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet (8).png', name: 'Orlando Diggs' },
   ];
 
   const cardStyles = {

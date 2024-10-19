@@ -76,7 +76,7 @@ function Sidebar({ darkMode , handleRightBarClick }) {
           <ListItem
             sx={{ display: "flex", alignItems: "center", paddingLeft: 2 }}
           >
-            <Avatar sx={{ width: 40, height: 40 }} src="/icons/ByeWind.png" />
+            <Avatar sx={{ width: 40, height: 40 }} src="https://shivamKakashi.github.io/juspay-dashboard/icons/ByeWind.png" />
             <Typography
               variant="body1"
               sx={{

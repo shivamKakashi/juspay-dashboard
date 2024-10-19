@@ -23,7 +23,7 @@ const TopBar = ({ darkMode, toggleDarkMode }) => {
         <Box display="flex" alignItems="center">
           {/* Home Icon */}
           <IconButton edge="start" sx={{ p: 2 }}>
-          {darkMode ? <img src="/icons/Sidebar.png" alt="Home" style={{ width: '24px', height: '24px' }} /> : <img src="/icons/IconSet (1).png" alt="Home" style={{ width: '24px', height: '24px' }} />
+          {darkMode ? <img src="https://shivamKakashi.github.io/juspay-dashboard/icons/Sidebar.png" alt="Home" style={{ width: '24px', height: '24px' }} /> : <img src="https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet (1).png" alt="Home" style={{ width: '24px', height: '24px' }} />
           }
             
           </IconButton>
@@ -33,7 +33,7 @@ const TopBar = ({ darkMode, toggleDarkMode }) => {
           {/* Dashboard Icon */}
           <IconButton edge="start" sx={{ p: 0 }}>
           {
-            darkMode ? <img src="/icons/Star.png" alt="Dashboard" style={{ width: '24px', height: '24px' }} /> : <img src="/icons/Button.png" alt="Dashboard" style={{ width: '24px', height: '24px' }} />
+            darkMode ? <img src="https://shivamKakashi.github.io/juspay-dashboard/icons/Star.png" alt="Dashboard" style={{ width: '24px', height: '24px' }} /> : <img src="https://shivamKakashi.github.io/juspay-dashboard/icons/Button.png" alt="Dashboard" style={{ width: '24px', height: '24px' }} />
           }
           </IconButton>
           {/* Second Text */}
@@ -75,7 +75,7 @@ const TopBar = ({ darkMode, toggleDarkMode }) => {
 
           {/* Account/Profile */}
           <IconButton edge="start" sx={{ p: 2 }}>
-          {darkMode ? <img src="/icons/Sidebar.png" alt="Home" style={{ width: '24px', height: '24px' }} /> : <img src="/icons/IconSet (1).png" alt="Home" style={{ width: '24px', height: '24px' }} />
+          {darkMode ? <img src="https://shivamKakashi.github.io/juspay-dashboard/icons/Sidebar.png" alt="Home" style={{ width: '24px', height: '24px' }} /> : <img src="https://shivamKakashi.github.io/juspay-dashboard/icons/IconSet (1).png" alt="Home" style={{ width: '24px', height: '24px' }} />
         }
           </IconButton>
         </Box>
