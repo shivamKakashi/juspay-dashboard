@@ -2,7 +2,7 @@ import React from 'react';
 import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps';
 import { Box, Typography, LinearProgress } from '@mui/material';
 
-const geoUrl = '/world-countries.json';
+const geoUrl = 'https://shivamKakashi.github.io/juspay-dashboard/world-countries.json';
 
 const locations = [
   { name: 'New York', coordinates: [-74.006, 40.7128], value: 72 },
