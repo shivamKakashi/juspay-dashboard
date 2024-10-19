@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/juspay-dashboard/static/css/main.42f871ce.css",
-    "main.js": "/juspay-dashboard/static/js/main.daad8d08.js",
+    "main.js": "/juspay-dashboard/static/js/main.a063531b.js",
     "static/js/453.30f5602b.chunk.js": "/juspay-dashboard/static/js/453.30f5602b.chunk.js",
     "index.html": "/juspay-dashboard/index.html",
     "main.42f871ce.css.map": "/juspay-dashboard/static/css/main.42f871ce.css.map",
-    "main.daad8d08.js.map": "/juspay-dashboard/static/js/main.daad8d08.js.map",
+    "main.a063531b.js.map": "/juspay-dashboard/static/js/main.a063531b.js.map",
     "453.30f5602b.chunk.js.map": "/juspay-dashboard/static/js/453.30f5602b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42f871ce.css",
-    "static/js/main.daad8d08.js"
+    "static/js/main.a063531b.js"
   ]
 }
