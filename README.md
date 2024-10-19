@@ -1,70 +1,111 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Juspay Dashboard Application
 
-## Available Scripts
+This is a responsive **eCommerce Dashboard** built using React and Material UI. The application provides essential metrics, charts, and data tables for monitoring business performance. It supports a **dark mode** toggle for a customizable user experience.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Dashboard Overview**: Key metrics in cards, such as Customers, Revenue, Orders, and Growth.
+- **Dark Mode Toggle**: Switch between light and dark themes.
+- **Responsive Layout**: Sidebar navigation and top bar for easy access.
+- **Charts**:
+  - **Line Chart**: Revenue tracking.
+  - **Bar Chart**: Projection vs. actuals.
+  - **Doughnut Chart**: Sales breakdown.
+  - **World Map**: Revenue by location.
+- **Data Tables**: Product listings with customizable data tables.
+- **Sidebar Navigation**: Easy navigation to sections like Dashboard, Order List, Reports, etc.
+- **Notifications**: Quick notifications in the RightBar for easy monitoring.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Dashboard (Light Mode)**
+- **Dashboard (Dark Mode)**
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: For building UI components.
+- **Material UI**: For faster and customizable web development.
+- **Chart.js**: For dynamic charts and data visualizations.
+- **React-Chartjs-2**: React wrapper for Chart.js.
+- **Axios**: For handling API requests.
+- **React Router**: For dynamic routing.
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+│
+├── components/
+│   ├── dashboard/
+│   │   └── Dashboard.js          // Main dashboard component
+│   ├── charts/
+│   │   ├── LineChart.js          // Line chart component
+│   │   ├── BarChart.js           // Bar chart component
+│   │   └── TotalSalesChart.js    // Doughnut chart component
+│   ├── mapComponent/
+│   │   └── WorldMap.js           // World map component
+│   ├── productTable/
+│   │   └── ProductTable.js       // Product data table component
+│   ├── sidebar/
+│   │   └── Sidebar.js            // Sidebar navigation component
+│   ├── orderList/
+│   │   └── OrderList.js          // Order List component
+│   └── rightBar/
+│       └── RightBar.js           // Notification sidebar
+│
+├── App.js                        // Main application logic
+├── index.js                      // Entry point of the app
+└── App.css                       // Global styles
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Navigate to Order List
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Sidebar Navigation**: On the left side of the app, locate the Sidebar.
+2. **Click "Order List"**: Click the Order List option to load all orders.
+3. **Switch Back**: Navigate back to the Dashboard by selecting other options, such as **eCommerce**.
 
-### `npm run eject`
+## How to Run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/shivamKakashi/juspay-dashboard.git
+   ```
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Run the Development Server**:
+   ```bash
+   npm start
+   ```
+4. **Access the Application**:
+   Open your browser at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dark Mode Integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The application supports light and dark themes. Toggle between themes using the **TopBar**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Implementation**:
+  - `createTheme` from Material UI generates light and dark themes.
+  - The state `darkMode` manages the active theme.
+  - Components adapt styles based on the `darkMode` prop or state.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We welcome contributions to enhance this project. Follow these steps to contribute:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Make your changes and commit**.
+4. **Push to the branch**:
+   ```bash
+   git push origin feature-branch
+   ```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
